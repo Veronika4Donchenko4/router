@@ -11,7 +11,7 @@ const Blog = () => {
 
     return (
         <div>
-            <h1>Blog</h1>
+            <h1 className='hey'>Blag</h1>
             <ul>
                 {posts.map((post) => (
                     <link key={post.id} to={`/posts/${post.id}`}>
